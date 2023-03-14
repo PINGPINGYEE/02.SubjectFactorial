@@ -25,10 +25,9 @@ int factorial_rec(int n)
 int main()
 {
 
-	int n = 30;
-	long double result_iter = factorial_iter(n);
-	long double result_rec = factorial_rec(n);
-	printf("%.0lf\n", result_iter);
-	printf("%.0lf\n", result_rec);
+	int n = 20;
+	double result_iter = factorial_iter(n);
+	double result_rec = factorial_rec(n);
+	printf("%.0f\n", result_iter);
+	printf("%.0f\n", result_rec);
 }
-
