@@ -11,7 +11,6 @@ int factorial_iter(int n)
 	return res;
 }
 
-#include <stdio.h>
 
 int factorial_rec(int n)
 {
