@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int factorial_iter(int n)
+double factorial_iter(n)
 {
-	int res = 1;
+	double res = 1;
 	int i;
 	for (i = n; i > 0; i--)
 	{
@@ -12,7 +12,7 @@ int factorial_iter(int n)
 }
 
 
-int factorial_rec(int n)
+double factorial_rec(n)
 {
 
 	if (n <= 1)
