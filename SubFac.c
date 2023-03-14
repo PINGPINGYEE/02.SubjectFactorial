@@ -28,6 +28,6 @@ int main()
 	int n = 20;
 	double result_iter = factorial_iter(n);
 	double result_rec = factorial_rec(n);
-	printf("%.0f\n", result_iter);
-	printf("%.0f\n", result_rec);
+	printf("Iterative factorial result: %.0f\n", result_iter);
+	printf("Recursive factorial result: %.0f\n", result_rec);
 }
